@@ -2,7 +2,7 @@
 
 An obfuscation tool for partly protecting your Minecraft Bedrock Edition resource packs
 
-## 🛡️ What Gets Obfuscated
+## What Gets Obfuscated
 
 - **Animations** - Animation definitions and timelines
 - **Animation Controllers** - State machine logic
@@ -13,14 +13,14 @@ An obfuscation tool for partly protecting your Minecraft Bedrock Edition resourc
 - **Render Controllers** - Rendering logic and conditions
 - **Sounds** - Audio file references
 
-## ⚠️ What won't Obfuscated
+## What won't Obfuscated
 
 - Fogs
 - Materials
 - UI Files
 - Fonts
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -55,7 +55,7 @@ Add a `mirage_config.json` file to the root of your resource pack:
 
 The keyword acts as an obfuscation marker. Any file or identifier containing this keyword will be obfuscated.
 
-### 📁 Resource Pack Structure
+### Resource Pack Structure
 
 Your resource pack must follow this structure:
 
@@ -76,7 +76,7 @@ Resourcepack.zip
 - The ZIP file must contain all folders at the root level
 - Must include `mirage_config.json` 
 
-## 📝 Usage Guide
+## Usage Guide
 
 ### Marking Files for Obfuscation
 
@@ -115,15 +115,15 @@ All instances of identifiers containing your keyword will be obfuscated througho
 2. Upload your prepared resource pack (ZIP format)
 3. The obfuscated pack will be generated and ready for download
 
-## 🔒 Security Best Practices
+## Security Best Practices
 
 - **Never share your `OBFUSCATION_KEY`** - this is the key to de-obfuscating your pack
 - Use a strong, unique key for each project
 - Keep your `.env` file out of version control (add to `.gitignore`)
 - **Store backups of your original, unobfuscated resource pack**
 
-## 💡 Tips
+## Tips
 - Test your obfuscated pack thoroughly before distribution
 
-## 📄 License
+## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
